@@ -6,5 +6,5 @@ from_addr = Address(индекс="678901", город="Санкт-Петербу
 
 mailing = Mailing(to_address=to_addr, from_address=from_addr, cost=450, track="TRK789012345")
 
-print(f"Отправление {mailing.track} из {to_addr.индекс}, {to_addr.город}, {to_addr.улица}, {to_addr.дом} - {to_addr.квартира} в {from_addr.индекс}, {from_addr.город}, {from_addr.улица}, {from_addr.дом} - {from_addr.квартира}.")
-print(f"Стоимость {mailing.cost} рублей.")
+print(f"Отправление {mailing.track} из {to_addr.индекс}, {to_addr.город}, {to_addr.улица}, {to_addr.дом} - {to_addr.квартира} в {from_addr.индекс}, {from_addr.город}, {from_addr.улица}, {from_addr.дом} - {from_addr.квартира} Стоимость {mailing.cost} рублей.")
+
